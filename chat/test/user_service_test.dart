@@ -32,7 +32,7 @@ void main() {
       username: "test",
       photoUrl: "url",
       active: true,
-      lastseen: DateTime.now(),
+      last_seen: DateTime.now(),
     );
     try {
       if (sut != null) {
@@ -49,7 +49,7 @@ void main() {
       username: "test",
       photoUrl: "url",
       active: true,
-      lastseen: DateTime.now(),
+      last_seen: DateTime.now(),
     );
 
     try {
